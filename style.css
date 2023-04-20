@@ -18,10 +18,13 @@
 }
 
 @media (max-width:768px) {
+
 .matrix { 
   text-align: center;
 }
+
 }
+
 .main-page {
   display: block;
   width: 500px;
@@ -57,6 +60,7 @@ input,button{
 .button:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 .h3,
 .label-new {
@@ -90,6 +94,7 @@ input,button{
 }
 
 /* New Task */
+
 .label-new {
   display: block;
   margin: 0 0 20px;
@@ -99,6 +104,7 @@ input,button{
 }
 
 /* Task list */
+
 .li {
   overflow: hidden;
   padding: 20px 0;
@@ -132,12 +138,14 @@ input,button{
 }
 
 /* Completed */
+
 #completed-tasks label{
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
+
 .li-input {
   display:none
 }
